@@ -1,7 +1,7 @@
 'use client'
 import Link from "next/link";
 import { useEffect, useState } from "react";
-import Logo from "/public/images/12050.png";
+// import Logo from "/public/images/12050.png";
 import Image from "next/image";
 import { faUser, faCode, faWindowMaximize } from "@fortawesome/free-solid-svg-icons";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
@@ -67,10 +67,10 @@ const toggleMenu = ()=>{
             ${menuActive &&  'rotate-45'}
             `}></div>
             <div className={`w-[30px] h-[5px] bg-black dark:bg-[#ebf4f1] rounded m-[5px] transition-all duration-500
-               ${menuActive &&  ' opacty-0 -translate-x-5'}
+            ${menuActive &&  ' opacty-0 -translate-x-5'}
             `}></div>
             <div className={`w-[30px] h-[5px] bg-black dark:bg-[#ebf4f1] rounded m-[5px] transition-all duration-500
-               ${menuActive &&  '-rotate-45'}
+            ${menuActive &&  '-rotate-45'}
             `}></div>
           </div>
           {menuActive ? '클릭' : '햄버거'}
