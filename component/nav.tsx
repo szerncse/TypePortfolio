@@ -73,7 +73,7 @@ const toggleMenu = ()=>{
             ${menuActive &&  '-rotate-45'}
             `}></div>
           </div>
-          {menuActive ? '클릭' : '햄버거'}
+          {/* {menuActive ? '클릭' : '햄버거'} */}
 
           <div className={`w-72 h-full fixed z-[50] top-0 bg-gray-100 p-12 box-border transition-all duration-500 md:hidden ${menuActive ? '-right-72' : 'right-0'}`}>
             <div className="text-cent mt-6 ">
